@@ -1,6 +1,6 @@
 # GMGN Token Scraper
 
-A Python-based scraper for collecting token data from GMGN.ai. Currently supports Solana tokens.
+A Python tool to fetch and standardize token data from GMGN.ai. Currently supports Solana tokens.
 
 ## Prerequisites
 
@@ -37,4 +37,24 @@ playwright install firefox
 
 ## Usage
 
-Basic example to scrape token data:
+Run the script and input a Solana token address when prompted:
+
+```bash
+python search_token_address.py
+```
+
+The script will:
+
+Ask you to input a token address
+Fetch the token data from GMGN.ai
+Save the standardized data to token_data.json
+
+**Example token data includes:**
+
+- Token information (name, symbol, supply)
+- Security analysis
+- Dev analysis
+- Rug check
+- Holder statistics
+- Social media links
+- Wallet tags
